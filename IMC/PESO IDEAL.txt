@@ -1,0 +1,16 @@
+def sum(peso, altura, imc):
+    return (peso , altura , imc)
+
+for imc in range(1, 10):
+
+    
+    imc1 = float(input("\n Digite o imc da pessoa: \n em (Imc) "))
+    altura = float(input("\n Digite o altura da pessoa: \n em (Metros) "))
+    print(f'Imc da {imc} º pessoa vale', {imc1})
+    peso = imc1 * (altura**2)
+    print(f'Peso atual {peso}')
+    peso1 =  24.9 * (altura**2)
+    print(f'Peso normal(limite maximo) : {peso1}')
+    peso2 =  18.5 * (altura**2)
+    print(f'Peso normal(limite minimo) : {peso2}')
+    

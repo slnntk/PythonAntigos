@@ -1,0 +1,22 @@
+print(f'Escolha as operacoes de : \n Soma : + \n Multiplicacao : x \n Subtracao : - \n Divisao : / \n ')
+
+
+
+c= str(input('Digite essa caractere'))
+n1 = int(input('Digite o numero n1'))
+n2 = int(input('Digite o numero n2'))
+
+if c == '+' :
+   print(f' Soma de n1 e n2 e igual a : {n1 + n2}')
+else :
+    if c == 'x' :
+       print(f' Multiplicacao de n1 e n2 e igual a : { n1* n2}  ')
+    else :
+       if c == '/' :
+          print(f' Divisao de n1 e n2 e igual a : { n1 / n2 } ')
+       else :
+           if c == '-' : 
+              print(f' Subtracao de n1 e n2 e igual a : { n1 - n2 } ')
+           else :
+               print(f' Opreacao invalida ')
+              

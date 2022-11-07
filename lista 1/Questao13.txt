@@ -1,0 +1,11 @@
+def sum(a, b, aux):
+    return(a, b, aux)
+
+a = float(input('Digite o numero de a'))
+b = float(input('Digite o numero de b'))
+
+aux = a
+a = b
+b= a
+
+print(f'(Valores de A: {a} e B: {b}) ')

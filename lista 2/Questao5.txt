@@ -1,0 +1,7 @@
+a = int(input('Digite o primeiro numero :'))
+b = int(input('Digite o segundo numero :'))
+
+if a > b :
+    print(f'A diferença entre o maior  e o menor é de  { a - b } ')
+else : 
+    print(f'A diferenca entre o maior e o menor é de { b - a } ')

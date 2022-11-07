@@ -1,0 +1,6 @@
+a = float(input('Digite o primeiro numero : '))
+b = float(input('Digite o segundo numero : '))
+c = float(input('Digite o segundo numero : '))
+
+resultado = (a**2)  +  (c + b) 
+print(f' O quadrado do primeiro mais a soma dos outros termos é : {resultado}')

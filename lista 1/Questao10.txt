@@ -1,0 +1,14 @@
+def sum(primeiro, segundo, terceiro):
+    return (primeiro, segundo, terceiro)
+    
+primeiro = float(input('Digite o primeiro numero'))
+segundo = float(input('Digite o segundo numero '))
+terceiro = float(input('Digite o terceiro numero '))  
+
+media =( ( primeiro + segundo + terceiro ) / 2 )
+
+if media >= 0:
+    print(f' (Media aritimetica {media})')
+if media < 0 :
+        print(f' (Media aritimetica {media})')
+    

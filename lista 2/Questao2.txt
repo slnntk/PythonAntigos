@@ -1,0 +1,4 @@
+raio = int(input('Digite o valor do raio : '))
+pi = 3.14159265359
+volume = (4 * pi * (raio ** 3) / 3 )
+print(volume)

@@ -1,0 +1,28 @@
+num = int (input("Digite o numero de um mes"))
+
+if num == 1 :
+   print(f'Numero que corresponde ao mes de : janeiro')
+if num == 2 :
+   print(f'Numero que corresponde ao mes de : fevereiro')
+if num == 3 :
+   print(f'Numero que corresponde ao mes de : marco')
+if num == 4 :
+   print(f'Numero que corresponde ao mes de : abril')
+if num == 5 :
+   print(f'Numero que corresponde ao mes de : maio')
+if num == 6 :
+   print(f'Numero que corresponde ao mes de : junho')
+if num == 7 :
+   print(f'Numero que corresponde ao mes de : julho')
+if num == 8 :
+   print(f'Numero que corresponde ao mes de : agosto')
+if num == 9 :
+   print(f'Numero que corresponde ao mes de : setembro')
+if num == 10 :
+   print(f'Numero que corresponde ao mes de : outrubro')
+if num == 11 :
+   print(f'Numero que corresponde ao mes de : novembro')
+if num == 12 :
+   print(f'Numero que corresponde ao mes de : dezembro')
+   
+

@@ -1,0 +1,19 @@
+def sum(a , b , c):
+    return( a , b , c)
+
+a = float(input('Escreva a'))
+b = float(input('Escreva b'))
+c = float(input('Escreva c'))
+
+delta = (b ** 2 ) - (4 * a * c)
+print('Calculando delta.....')
+print(    delta)
+
+x1 = (-b + delta**(1/2)) / (2*a)
+x2 = (-b - delta**(1/2)) / (2*a)
+
+if delta > 0 :
+   print(x1, x2)
+
+if delta < 0 :
+   print('Delta nao tem valores reais')

@@ -1,0 +1,5 @@
+valor = int(input('Digite o primeiro numero : '))
+if (valor%2) == 0 : 
+   print(f' O valor é par ')
+else : 
+   print(f' O valor é impar ')

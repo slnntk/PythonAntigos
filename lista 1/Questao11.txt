@@ -1,0 +1,10 @@
+def sum(a1, n, r, an):
+    return(a1, n, r, an)
+
+a1 = int(input('Digite o numero de a1'))
+n = int(input('Digite o numero de n'))
+r = int(input('Digite o numero de r'))
+
+an = a1 + (n-1) * r
+
+print(f'(Valor da {an})'

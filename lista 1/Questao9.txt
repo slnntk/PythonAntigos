@@ -1,0 +1,30 @@
+primeiro = float(input('Digite o primeiro numero'))
+segundo = float(input('Digite o segundo numero '))
+terceiro = float(input('Digite o terceiro numero '))  
+    
+var1 = primeiro**0.5
+var2 = primeiro**2
+
+if var1 > 0 :
+   print(f' (Raiz do primeiro {var1})')
+
+if var2 > 0 :
+   print(f' (Potencia do primeiro {var2})')
+   
+var3 = segundo**0.5
+var4 = segundo**2
+
+if var3 > 0 :
+   print(f' (Raiz do segundo {var3})')
+
+if var4 > 0 :
+   print(f' (Potencia do segundo {var4})')
+   
+var5 = terceiro**0.5
+var6 = terceiro**2
+
+if var5 > 0 :
+   print(f' (Raiz do terceiro {var5})')
+
+if var6 > 0 :
+   print(f' (Potencia do terceiro {var6})')

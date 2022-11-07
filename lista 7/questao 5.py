@@ -1,0 +1,26 @@
+def sum(peso, altura, imc):
+    return (peso , altura , imc)
+
+for imc in range(1, 2):
+
+    peso = float(input("\n Digite o peso da pessoa:\n em (Kilos) "))
+    altura = float(input("\n Digite o altura da pessoa: \n em (Metros) "))
+    imc1 = peso / ( altura ** 2 )
+    print(f'Imc da {imc} º pessoa vale', {imc1})
+
+if imc1 <= 18.5 :
+    print ("Abaixo do peso")
+else:
+    if imc1 < 24.9:
+        print ("Peso normal")
+    else:
+        if imc1 < 29.9:
+            print ("Acima do peso")
+        else:
+            if imc1 < 34.9 :
+                print ("Obesidade grau 1")
+            else:
+                if imc1 < 39.9 :
+                    print ("Obesidade grau")
+                else:
+                    print ("Nao calculavel")
